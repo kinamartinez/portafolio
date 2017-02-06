@@ -1,3 +1,53 @@
 h1 {
     color: red;
 }
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    line-height: 50px;
+    text-decoration: none;
+    color: #999;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 20px;
+    font-family: Raleway;
+}
+.aboutMe-img {
+    width: 35%;
+    display: block;
+    margin: 70px  auto;
+    border-radius: 50%;
+    padding-bottom: 10%;
+    
+}
+
+.aboutMe{
+    font-family: Raleway;
+    margin: 0 35% 0 35%;
+    background-color: #999999;
+    color: black;
+    padding: 20px 10px 0 10px;
+    text-align: justify;
+}
+
+body {
+    background-image: url("http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg");
+    background-size: cover;
+}
